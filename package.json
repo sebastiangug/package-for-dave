@@ -1,0 +1,26 @@
+{
+  "name": "package-for-dave",
+  "version": "1.0.3",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf lib && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "@azure/identity": "latest",
+    "@azure/storage-blob": "latest"
+  },
+  "devDependencies": {
+    "@azure/identity": "latest",
+    "@azure/storage-blob": "latest",
+    "rimraf": "latest"
+  },
+  "type": "module"
+}
